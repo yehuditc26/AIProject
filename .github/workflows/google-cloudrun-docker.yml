@@ -53,12 +53,12 @@ env:
   
 #cloud run
   SERVICE: aiproject # TODO: update Cloud Run service name
-  REGION: YOUR_SERVICE_REGION # TODO: update Cloud Run service region
+  REGION: us-central1 # TODO: update Cloud Run service region
 
 #artificat registery
   GAR_LOCATION: us-central1 # TODO: update Artifact Registry location
-  IMAGE: MY_IMAGE
-  REPO: MY_REPO
+  IMAGE: aiproject/aiproject  
+  REPO: cloud-run-source-deploy
 
  
 
