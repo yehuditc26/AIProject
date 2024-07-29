@@ -54,7 +54,6 @@ env:
 #cloud run
   SERVICE: aiproject # TODO: update Cloud Run service name
   REGION: us-central1 # TODO: update Cloud Run service region
-  REGION: us-central1 # TODO: update Cloud Run service region
 
 #artificat registery
   GAR_LOCATION: us-central1 # TODO: update Artifact Registry location
