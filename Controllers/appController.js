@@ -49,6 +49,8 @@ const appController ={
             console.log("prompt 3:",parsedResponse["2"])
     
             res.json(parsedResponse);
+
+            console.log("end");
         }
     
         try {
